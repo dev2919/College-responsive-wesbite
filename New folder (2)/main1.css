@@ -1,0 +1,74 @@
+#test{
+
+	background: url('https://ibb.co/Xyj3d4P') repeat;
+	background-size: cover;
+}
+
+#nav{
+
+	font-size: 20px;
+	font-weight: bolder;	
+
+}
+
+.navbar {
+  min-height: 100px;
+
+}
+
+#nav-img{
+    height: 51px;
+    width: 325px;
+}
+
+.dropdown:hover>.dropdown-menu{
+	display: block;
+}
+
+.navbar-brand
+{
+    position: absolute;
+    width: 90%;
+    left: 0;
+    text-align: center;
+    margin:0 auto;
+}
+
+#news-part{
+		
+
+	background: url('../rgit.png') repeat;
+	background-size: cover;
+	
+	background-position: center center;
+	background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 71%;
+    position: relative;
+    left: 29%;
+}
+
+#row_slide{
+	    position: relative;
+    right: 32%;
+    min-width: 800px;
+    max-width: 1300px;
+    padding-left: 123px;
+
+    padding-top: 100px;
+    padding-left: 75px; 
+    position: relative;
+    right: 31%;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+        width: 72%;
+  align-items: flex-end;
+}
+
+.card{
+
+	height:359px;
+}

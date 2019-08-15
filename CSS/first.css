@@ -1,0 +1,27 @@
+body{
+	background-color: cornsilk;
+}
+
+h1{
+	text-align: center;
+}
+
+li{
+	font-size: 20px;
+	float: left;
+	padding-left: 20px;
+
+}
+
+img{
+	border: 20px solid blue;
+}
+
+a{
+	color: green;
+	text-decoration: none;
+}
+
+#links{
+	padding-left: 450px;
+}

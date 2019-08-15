@@ -1,0 +1,492 @@
+
+body::-webkit-scrollbar { width: 0 !important }
+body { overflow: -moz-scrollbars-none; }
+
+::-webkit-scrollbar{
+    width: 10px;
+    background-color:white;
+    border: 0.5px solid;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+
+}
+
+::-webkit-scrollbar:horizontal {
+  display: none;
+}
+
+body{
+	background-color: #efefef;
+}
+
+@media (max-width: 992px) {
+  .mobileMenu {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    transform: translateX(-100%);
+    transition: all ease 0.25s;
+  }
+
+  .mobileMenu.open {
+    transform: translateX(0);
+  }
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+  }
+  .overlay.open {
+    display: block;
+  }
+
+    #square0 {
+    height: 200px;
+    width: 427px;
+    background: #ffc107;
+    z-index: -1;
+    position: absolute;
+    top: 83px;
+    left: 143.3px;
+
+}
+ 
+    #brand_img{
+    margin-left: 25%;
+            height: 73px;
+    width: 537px;
+    position: absolute;
+    top: -50px;
+    left: -67px;
+    }
+
+.navbar {
+  font-size: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: rgba(255, 255, 255, 0.95);
+  height: 120px;
+  width: 100%;
+}
+
+#mob-cont{
+    visibility: visible;
+}
+
+#events-cont{
+
+
+    height: 500px;
+    width: 154%;
+    position: absolute;
+    left: 126px;
+}
+
+#card-body{
+    position: absolute;
+    top: 550px;
+        width: 113%;
+    left: -137px;
+}   
+
+
+.footer-copyright{
+    text-align: center;
+}
+
+
+#footer{
+position: absolute;
+    top: 3000px;
+    width: 100%;
+
+
+}
+
+#slide-img{
+        width: 904px;
+    height: 516px;
+}
+
+#inner{
+    left: 229px; 
+}
+
+}
+
+/*--------------------------------------*/
+
+
+
+@media(min-width: 993px){
+
+    #square0{
+
+    height: 200px;
+    width: 427px;
+    background: #16418b;
+    z-index: -1;
+    position: absolute;
+    top: 83px;
+    left: 182.5px;
+}
+
+#brand_img{
+height: 73px;
+    width: 537px;
+    position: absolute;
+    top: -34px;
+    left: -15px;
+    padding-right: 63px;
+    padding-left: 15px;
+
+}
+
+.navbar {
+  font-size: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: rgba(255, 255, 255, 0.95);
+  height: 111px;
+  width: 100%;
+}
+
+ 
+.navbar-nav{
+       position: absolute;
+    left: 45%;
+    bottom: 2px;
+}
+
+#mob-cont{
+    visibility:hidden;
+}
+
+
+#Events .card{
+
+        height: 500px;
+        width: 53%;
+
+}
+
+
+#footer-img{
+        position: relative;
+    height: 184px;
+    left: 89px;
+}
+
+.footer-copyright{
+    position: relative;
+    top: -14px;
+    text-align: left;
+}
+
+#footer-cop{
+    font-size: 18px;
+    padding-left: 97px;
+    padding-top: 30px;
+}
+
+#logo-fot{
+        position: relative;
+    left: 515px;
+    top: -31px;
+
+
+}
+
+#links-fott{
+
+    position: relative;
+    top: 63px;
+        left: -188px;
+}
+
+#links-fott li{
+    float: left;
+}
+
+#inner{
+    left: 384px; 
+}
+
+
+}
+
+
+
+
+#Header_links{
+    height: 50px;
+    background-color: blue;
+}
+
+
+
+#nav{
+
+	font-size: 20px;
+	font-weight: bolder;	
+	    
+
+}
+
+.navbar {
+  min-height: 100px;
+
+}
+
+#nav-img{
+    height: 51px;
+    width: 391px;
+        padding-left: 100px;
+        z-index: 0;
+}
+
+
+
+
+
+
+.dropdown:hover>.dropdown-menu{
+	display: block;
+}
+
+.navbar-brand
+{
+    position: absolute;
+    width: 90%;
+    padding-left:40px;
+
+}
+
+#news-part{
+		
+
+    width: 71%;
+    position: relative;
+    left: 29%;
+    z-index: 2;
+}
+
+.parallax{
+
+	    width: 71%;
+    position: relative;
+    left: 21%;
+    z-index: 3000;
+}
+
+
+
+#news_part #row_slide{
+	    position: relative;
+    right: 32%;
+    min-width: 800px;
+    max-width: 1300px;
+    padding-left: 123px;
+
+    padding-top: 100px;
+    padding-left: 75px; 
+    position: relative;
+    right: 31%;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+        width: 85%;
+  align-items: flex-end;
+      position: absolute;
+    top: 245px;
+}
+
+#news_part .card{
+
+	height:359px;
+	
+    border-image-slice: 1;
+    z-index: 2000;
+    border: none;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-top: 55px;
+}
+
+
+
+.square{
+
+	height: 348px;
+    width: 750px;
+    background: #d5dfeb;
+    z-index: -1;
+    position: absolute;
+        top: 267px;
+    left: -2px;	
+}
+
+.square1{
+
+    height: 365px;
+    width: 450px;
+    background: #355a9b;
+    z-index: -1;
+    position: absolute;
+        top: 306px;
+    left: 47%;
+}
+
+.square2{
+    height: 365px;
+    width: 33%;
+    background: #16418b;
+    z-index: -1;
+    position: absolute;
+        top: 330px;
+    left: 67%;
+
+}
+
+
+
+
+
+
+
+#scroll-card{
+
+      overflow-y: auto;
+  max-height: 400px;
+
+}
+
+#welcome-mssg{
+    background-color: white;
+    padding-left: 35%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card-container {
+  flex: 200px 200px 200px;
+  margin: 10px;
+}
+.card-container .card {
+  font-weight: bold;
+  position: relative;
+  width: 50%;
+}
+.card-container .card a {
+  padding: 20px;
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  background: white;
+  text-decoration: none;
+  color: black;
+  display: block;
+  transition: 0.25s ease;
+}
+.card-container .card a:hover {
+  transform: translate(-30px, -30px);
+  border-color: #5bc0eb;
+}
+.card-container .card a:hover .card--display {
+  display: none;
+}
+.card-container .card a:hover .card--hover {
+  display: block;
+}
+.card-container .card a .card--display i {
+  font-size: 60px;
+  margin-top: 50px;
+}
+.card-container .card a .card--display h2 {
+  margin: 20px 0 0;
+}
+.card-container .card a .card--hover {
+  display: none;
+}
+.card-container .card a .card--hover h2 {
+  margin: 20px 0;
+}
+.card-container .card a .card--hover p {
+  font-weight: normal;
+  line-height: 1.5;
+}
+.card-container .card a .card--hover p.link {
+  margin: 20px 0 0;
+  font-weight: bold;
+  color: #5bc0eb;
+}
+.card-container .card .card--border {
+  position: absolute;
+  width: 115%;
+  height: 200px;
+  left: 0;
+  top: 0;
+  border: 2px dashed black;
+  z-index: -1;
+}
+.card-container .card.card--dark a {
+  color: white;
+  background-color: black;
+  border-color: black;
+}
+.card-container .card.card--dark a .card--hover .link {
+  color: #fde74c;
+}
+
+
+#footer li{
+    padding-left: 15px;
+    font-size: 25px;
+
+
+}
+#footer a{
+        color: grey;
+        text-decoration: none;
+    }
+
+#line-fot{
+        opacity: 0.1;
+    height: 1px;
+    background: black;
+}
+
+
+
+#slide .carousel-item{
+    height: 75vh;
+    width: 80%;
+} 
+
+#slide{
+    position: absolute;
+}

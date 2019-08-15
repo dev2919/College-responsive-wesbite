@@ -1,0 +1,192 @@
+
+body::-webkit-scrollbar { width: 0 !important }
+body { overflow: -moz-scrollbars-none; }
+body{
+	background-color: #f9fbfc;
+}
+
+@media (max-width: 992px) {
+  .mobileMenu {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    transform: translateX(-100%);
+    transition: all ease 0.25s;
+  }
+
+  .mobileMenu.open {
+    transform: translateX(0);
+  }
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+  }
+  .overlay.open {
+    display: block;
+  }
+
+    #square0 {
+    height: 200px;
+    width: 427px;
+    background: #ffc107;
+    z-index: -1;
+    position: absolute;
+    top: 83px;
+    left: 143.3px;
+
+}
+
+
+}
+
+@media(min-width: 993px){
+
+    #square0{
+
+    height: 200px;
+    width: 427px;
+    background: #ffc107;
+    z-index: -1;
+    position: absolute;
+    top: 83px;
+    left: 182.3px;
+}
+
+
+}
+
+.navbar {
+  font-size: 20px;
+}
+
+#nav{
+
+	font-size: 20px;
+	font-weight: bolder;	
+	    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+
+}
+
+.navbar {
+  min-height: 100px;
+
+}
+
+#nav-img{
+    height: 51px;
+    width: 391px;
+        padding-left: 100px;
+        z-index: 0;
+}
+
+.dropdown:hover>.dropdown-menu{
+	display: block;
+}
+
+.navbar-brand
+{
+    position: absolute;
+    width: 90%;
+    padding-left:40px;
+
+}
+
+#news-part{
+		
+
+    width: 71%;
+    position: relative;
+    left: 29%;
+    z-index: 2;
+}
+
+.parallax{
+
+	    width: 71%;
+    position: relative;
+    left: 29%;
+    z-index: 3000;
+}
+
+
+
+#row_slide{
+	    position: relative;
+    right: 32%;
+    min-width: 800px;
+    max-width: 1300px;
+    padding-left: 123px;
+
+    padding-top: 100px;
+    padding-left: 75px; 
+    position: relative;
+    right: 31%;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+        width: 72%;
+  align-items: flex-end;
+}
+
+.card{
+
+	height:359px;
+	
+    border-image-slice: 1;
+    z-index: 2000;
+    border: none;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-top: 55px;
+}
+
+
+
+.square{
+
+	height: 348px;
+    width: 750px;
+    background: #74d1d2;
+    z-index: -1;
+    position: absolute;
+    top: 265px;
+    left: -2px;	
+}
+
+.square1{
+
+    height: 365px;
+    width: 450px;
+    background: #dc3545;
+    z-index: -1;
+    position: absolute;
+    top: 324px;
+    left: 47%;
+}
+
+.square2{
+    height: 365px;
+    width: 33%;
+    background: #007bff;
+    z-index: -1;
+    position: absolute;
+    top: 369px;
+    left: 67%;
+}
+
+
+
+
+
+
+

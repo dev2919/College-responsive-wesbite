@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+
+<link rel="stylesheet" href="css/bootstrap.css">
+
+<link rel="stylesheet" href="css/backup.css">
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+
+<body>
+
+<!--decoraction upar ka-->
+
+<div id="bgbox">
+
+
+
+	<img id="logo" src="logo.png" height="30px" width="700px;">
+
+
+</div>
+
+
+		<div id="news">
+			<div class="container7 mt-5 text-center">
+				<div class="row">
+					<div class="col-lg-6 text-center">
+						<div class="card" style="background-color: rgba(245, 245, 245, 0.004);border-color: rgba(245, 245, 245, 0.4)">
+								<div class="carousel-container">
+							  <div class="text-slide">
+							    <p style="color: black;" id="lastClone">  THIS IS THE TEST NEW FOR WEBSITE 1 </p>
+							    <p style="color: black;"><a class="nav-link" href="#Home">THIS IS THE TEST NEW FOR WEBSITE 1</a></p>
+							    <p style="color: black;">THIS IS THE TEST NEW FOR WEBSITE 1THIS IS THE TEST NEW FOR WEBSITE 1</p>
+							    <p style="color: black;">THIS IS THE TEST NEW FOR WEBSITE 1THIS IS THE TEST NEW FOR WEBSITE 1</p>
+							    <p style="color: black;" id="firstClone">one</p>
+							  </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			
+		</div>
+
+
+
+
+<!--nabar-->
+<div id="header">
+	<nav class="navbar navbar-expand-sm navbar-light " style="">
+		<div class="container">
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="flase" aria-label="Toggle navigation">
+
+				<span class="navbar-toggler-icon"></span>
+
+			</button>
+			 <div id="nav-font">
+				<div class="collapse navbar-collapse" id="navbarResponsive">
+					<ul class="navbar-nav ml-auto">
+							<li class="nav-item"><a class="nav-link" href="#Home">Home</a></li>
+							
+							
+							<li class="nav-item"><a class="nav-link" href="#abtt">NULL</a></li>
+
+
+							<li class="nav-item"><a class="nav-link" href="#skills">NULL</a></li>
+
+							<li class="nav-item"><a class="nav-link" href="#portfolio">NULL</a></li>
+
+							<li class="nav-item">
+						
+							</a></li>
+
+							<li class="nav-item dropdown">
+
+							        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+							          Dropdown
+
+							        </a>
+
+							        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+								          <a class="dropdown-item" href="#">Action</a>
+								          <a class="dropdown-item" href="#">Another action</a>
+
+								          <div class="dropdown-divider"></div>
+
+								          <a class="dropdown-item" href="#">Something else here</a>
+
+							        </div>
+    						</li>
+							
+							<li class="nav-item"><a class="nav-link" href="#map">Contact</a></li>
+						
+							
+					</ul>
+				</div>
+			</div>
+
+
+		</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+<div class="parallax-image">
+	
+	
+	
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+	
+	const textSlide = document.querySelector(".text-slide");
+const text = textSlide.querySelectorAll("p");
+
+// const prev = document.querySelector(".prev");
+// const next = document.querySelector(".next");
+
+let counter = 1;
+const size = text[0].clientWidth;
+
+//to set the slide one as the first slide instead of the clone
+textSlide.style.transform = `translateX(-${size * counter}px)`;
+
+//looping the slider every 2s
+setInterval(()=>{
+  if(counter >= text.length -1) return;
+  
+  textSlide.style.transition = `transform 0.8s ease`;
+  counter++;
+  textSlide.style.transform = `translateX(-${size * counter}px)`; 
+  
+}, 3000);
+
+textSlide.addEventListener('transitionend', () => {
+  if(text[counter].id === 'lastClone'){
+    textSlide.style.transition = `none`;
+    counter = text.length - 2;
+    textSlide.style.transform = `translateX(-${size * counter}px)`;
+  }
+  
+  if(text[counter].id === 'firstClone'){
+    textSlide.style.transition = `none`;
+    counter = text.length - counter;
+    textSlide.style.transform = `translateX(-${size * counter}px)`;
+  }  
+});
+
+
+
+</script>
+
+</body>
+</html>
