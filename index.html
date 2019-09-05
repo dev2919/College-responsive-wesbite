@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+  <title></title>
+
+<script src="JS/rellax.min.js"></script>
+
 </head>
 
 
@@ -12,12 +15,15 @@
 
 <link rel="stylesheet" href="css/bootstrap.css">
 
-<link rel="stylesheet" href="css/universal-parallax.css">
+<link rel="stylesheet" type="text/css" href="slick/slick.css">
 
+<link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
 
 <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
 <link rel="stylesheet" type="text/css" href="practise.css">
+
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 <link rel="stylesheet" href="animate.css">
   <script src="https://kit.fontawesome.com/79cbe590ec.js"></script>
@@ -33,6 +39,8 @@
 <script src="JS/jquery-3.3.1.min.js"></script>
 
 <script src="JS/bootstrap.bundle.min.js"></script>
+
+
 
  <script src="JS/script.js"></script> 
 
@@ -54,18 +62,18 @@
   <a class="navbar-brand order-1 order-lg-0 ml-lg-0 ml-5 mr-auto" href="#"><img id="brand_img" src="logo.png"></a>
 
   <button class="navbar-toggler align-self-start" type="button">
-    <span class="navbar-toggler-icon"></span>
+    <span class="navbar-toggler-icon" style="height: 100px;width: 100px;"></span>
   </button>
 
   <div class="collapse navbar-collapse d-flex flex-column flex-lg-row flex-xl-row justify-content-lg-end bg-light p-3
-  p-lg-0 mt-sm-5 mt-lg-0 mobileMenu" id="navbarSupportedContent" style="margin-left:-15px; width: 246px ;z-index: 10;">
+  p-lg-0 mt-sm-5 mt-lg-0 mobileMenu" id="navbarSupportedContent" style="margin-left:-15px; width:40% ;z-index: 10;    margin-top: 118px !important;">
 
-    <ul class="navbar-nav align-self-stretch mt-3 mb-2 font-weight-bold text-uppercase ">
+    <ul class="navbar-nav align-self-stretch mt-3  font-weight-bold text-uppercase ">
       <li class="nav-item active">
         <a class="nav-link" href="#">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link" href="#">About Us</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Link</a>
@@ -74,11 +82,12 @@
         <a class="nav-link" href="#">Link</a>
       </li>            
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
           Dropdown
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-
+          item" href="#">Action</a>
           <a class="dropdown-item" href="#">Another action</a>
           <a class="dropdown-item" href="#">Another action</a>
           <a class="dropdown-item" href="#">Another action</a>
@@ -162,31 +171,33 @@
       <img class="d-block w-100" id="slide-img" src="rgit2.png" alt="Second slide">
     </div>
     <div class="carousel-item" id="inner">
-      <img class="d-block w-100" id="slide-img" src="rgit1.png" alt="Third slide">
+      <img class="d-block w-100" id="slide-img" src="rgit3.png" alt="Second slide">
     </div>
+
   </div>
+
 </div>
 </div> 
 
 <div id="postion" style="    position: relative;
     left: -7%;">
 <div  id="news-part" style="height: 553px;">
-	
-		
+  
+    
 
-	<div class="row" id="row_slide" >
+  <div class="row" id="row_slide" >
   <div class="col-sm-6">
-  	<div  style="border-bottom: 15px solid #16418b;	">
-  		<div id="card_bod" style="">
+    <div  style="border-bottom: 15px solid #16418b; ">
+      <div id="card_bod" style="">
     <div class="card rounded-0" >
       <div class="card-body h-50 d-inline-block" >
 
 
-      				<div class="container" id="sliderr" >
+              <div class="container" id="sliderr" >
     <div id="carouselContent" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner" role="listbox" style="    height: 264px;">
             <div class="carousel-item active text-center p-4">
-            		
+                
                  <p id="slide-txt">F.E.Admission 2019-20 / Postponement of Orientation Function to 9th August 2019 and ME admission</p>
                  <p id="slide-txt"><a href="#">Read more</a></p>
 
@@ -207,7 +218,7 @@
     </div>
 </div>
 
-      	
+        
       </div>
     </div>
     </div>
@@ -218,25 +229,34 @@
 </div>
 
 
-<div id="square0">
-	
+<div id="square0" class="squaree">
+  
 </div>
 
 </section>
 
 
 
-<section id="slide-txt-decor">
+<section id="slide-txt-decor" class="squaree">
 
+<div class="rellax" data-rellax-speed="-1.3">
+  <div class="squaree1" ></div> 
+</div>
 
-	<div class="square"></div> 
+<div class="square"></div> 
 
-	<div class="square1"></div>
+<div class="rellax" data-rellax-speed="-1.3">
+  <div class="square11" style="height: 105px" ></div>
+</div>
+<div class="square1" ></div>
 
-	<div class="square2"></div>
+<div class="rellax" data-rellax-speed="-1.5">
+  <div class="square22" style="height: 146px" ></div>
+</div>
+  <div class="square2"></div>
 
   </div>
-	
+  
 </section>
 
 
@@ -252,7 +272,7 @@
 
 
 
-<section id="welcome-mssg">
+<section id="welcome-mssg" style="    box-shadow: 0 0 20px 8px rgba(0, 0, 0, 0.11);">
   
  
     <div class="row" id="row_slide" >
@@ -262,11 +282,11 @@
     <div class="card rounded-0 border-0" >
       <div class="card-body h-50 d-inline-block  >
         
-        <div id="welcome-msg">
+        <div id="welcome-msg"  data-aos="zoom-out-up">
           <p style="font-size: 60px;color: black;font-weight: bolder;text-align: center;">Welcome</p><br>
           <p style="text-align: center;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,<br>
-          <img src="https://via.placeholder.com/250x150">
+          <img id="square1" src="https://via.placeholder.com/250x150">
          .</p>
 
         </div>
@@ -284,10 +304,16 @@
 </section>
 
 
-<section id="event-head" style="padding-left: 40px;">
+<section id="event-head" style="padding-left: 40px;" >
+  <div data-aos="fade-right" id="event-heads">
+  <p style="font-size: 60px;"><b style="color: orange;">WHAT'S</b> 
+    <br>
+    HAPPENING
+    <div id="event-bar" style="background-color: black;height: 10px;width: 130px;"></div>
+  </p>
 
-  <p style="font-size: 60px;"><b style="color: orange;">WHAT'S</b> <br><span style="">HAPPENING</span></p>
-  <div style="background-color: black;height: 10px;width: 130px;"></div>
+  </div>
+ 
   
 
 <br>
@@ -308,25 +334,25 @@
         <div id="scroll-card">
         <div style="display: flex; flex-direction:row;padding-top: 10px;">
          <p ><b style="font-size: 25px;">29 </b>    <br><b>AUG.</b> </p>
-         <p style="padding-top: 15px;padding-left: 20px;">MAH BIRTHDAY BITACHEASSS YOLO YOLO</p>
+         <p style="padding-top: 15px;padding-left: 20px;" >MAH BIRTHDAY BITACHEASSS YOLO YOLO</p>
 
         </div>
-        <div style="display: flex; flex-direction:row;">
+        <div style="display: flex; flex-direction:row;" >
          <p ><b style="font-size: 25px;">29 </b>    <br><b>AUG.</b> </p>
          <p style="padding-top: 15px;padding-left: 20px;">MAH BIRTHDAY BITACHEASSS YOLO YOLO</p>
 
         </div>
-        <div style="display: flex; flex-direction:row;">
+        <div style="display: flex; flex-direction:row;"  >
          <p ><b style="font-size: 25px;">29 </b>    <br><b>AUG.</b> </p>
          <p style="padding-top: 15px;padding-left: 20px;">MAH BIRTHDAY BITACHEASSS YOLO YOLO</p>
 
         </div>  
-        <div style="display: flex; flex-direction:row;">
+        <div style="display: flex; flex-direction:row;"  >
          <p ><b style="font-size: 25px;">29 </b>    <br><b>AUG.</b> </p>
          <p style="padding-top: 15px;padding-left: 20px;">MAH BIRTHDAY BITACHEASSS YOLO YOLO</p>
 
         </div>  
-        <div style="display: flex; flex-direction:row;">
+        <div style="display: flex; flex-direction:row;"  >
          <p ><b style="font-size: 25px;">29 </b>    <br><b>AUG.</b> </p>
          <p style="padding-top: 15px;padding-left: 20px;">MAH BIRTHDAY BITACHEASSS YOLO YOLO</p>
 
@@ -348,9 +374,269 @@
   </div>
 
 </div>
-  <div class="col-sm-6">
-    <div id="card-body">
-      <div id="card_bod" style="">
+
+ <section class="variable slider" id="variable" style="">
+    <div>
+      <div class="my-2 mx-auto p-relative bg-white shadow-1 blue-hover" style="width: 360px; overflow: hidden; border-radius: 1px;">
+        <img src="https://images.pexels.com/photos/442559/pexels-photo-442559.jpeg?auto=compress&cs=tinysrgb" alt="Man with backpack"    
+            class="d-block w-full">
+
+  <div class="px-2 py-2">
+    <p class="mb-0 small font-weight-medium text-uppercase mb-1 text-muted lts-2px">
+      TAG
+    </p>
+
+    <h1 class="ff-serif font-weight-normal text-black card-heading mt-0 mb-1" style="line-height: 1.25;">
+      HEADING TEXT
+    </h1>
+
+    <p class="mb-1">
+      DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT 
+    </p>
+
+  </div>
+
+  <a href="#0" class="text-uppercase d-inline-block font-weight-medium lts-2px ml-2 mb-2 text-center styled-link">
+    Read More
+  </a>
+
+       
+
+</div>
+
+<div class="w-full bg-white py-1 px-2 clearfix" style="border-top: 1px solid rgba(0,0,0,0.12);">
+        <span class="float-left">
+            Type
+            <a href="#" class="styled-link">DUMMY TEXT</a> 
+        </span>
+        <span class="float-right">
+            Coded by <a href="#" class="styled-link">DUMMY TEXT</a>
+        </span>
+    </div>
+    </div>
+
+
+    <div>
+      <div class="my-2 mx-auto p-relative bg-white shadow-1 blue-hover" style="width: 360px; overflow: hidden; border-radius: 1px;">
+        <img src="https://images.pexels.com/photos/442559/pexels-photo-442559.jpeg?auto=compress&cs=tinysrgb" alt="Man with backpack"    
+            class="d-block w-full">
+
+  <div class="px-2 py-2">
+    <p class="mb-0 small font-weight-medium text-uppercase mb-1 text-muted lts-2px">
+      TAG
+    </p>
+
+    <h1 class="ff-serif font-weight-normal text-black card-heading mt-0 mb-1" style="line-height: 1.25;">
+      HEADING TEXT
+    </h1>
+
+    <p class="mb-1">
+      DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT 
+    </p>
+
+  </div>
+
+  <a href="#0" class="text-uppercase d-inline-block font-weight-medium lts-2px ml-2 mb-2 text-center styled-link">
+    Read More
+  </a>
+
+       
+
+</div>
+
+<div class="w-full bg-white py-1 px-2 clearfix" style="border-top: 1px solid rgba(0,0,0,0.12);">
+        <span class="float-left">
+            Type
+            <a href="#" class="styled-link">News card</a> 
+        </span>
+        <span class="float-right">
+            Coded by <a href="https://devesh-pawar.tk" class="styled-link">DEV</a>
+        </span>
+    </div>
+    </div>
+
+
+    <div>
+      <div class="my-2 mx-auto p-relative bg-white shadow-1 blue-hover" style="width: 360px; overflow: hidden; border-radius: 1px;">
+        <img src="https://images.pexels.com/photos/442559/pexels-photo-442559.jpeg?auto=compress&cs=tinysrgb" alt="Man with backpack"    
+            class="d-block w-full">
+
+  <div class="px-2 py-2">
+    <p class="mb-0 small font-weight-medium text-uppercase mb-1 text-muted lts-2px">
+      TAG
+    </p>
+
+    <h1 class="ff-serif font-weight-normal text-black card-heading mt-0 mb-1" style="line-height: 1.25;">
+      HEADING TEXT
+    </h1>
+
+    <p class="mb-1">
+      DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT 
+    </p>
+
+  </div>
+
+  <a href="#0" class="text-uppercase d-inline-block font-weight-medium lts-2px ml-2 mb-2 text-center styled-link">
+    Read More
+  </a>
+
+       
+
+</div>
+
+<div class="w-full bg-white py-1 px-2 clearfix" style="border-top: 1px solid rgba(0,0,0,0.12);">
+        <span class="float-left">
+            Type
+            <a href="#" class="styled-link">News card</a> 
+        </span>
+        <span class="float-right">
+            Coded by <a href="https://devesh-pawar.tk" class="styled-link">DEV</a>
+        </span>
+    </div>
+    </div>
+
+
+    <div>
+      <div class="my-2 mx-auto p-relative bg-white shadow-1 blue-hover" style="width: 360px; overflow: hidden; border-radius: 1px;">
+        <img src="https://images.pexels.com/photos/442559/pexels-photo-442559.jpeg?auto=compress&cs=tinysrgb" alt="Man with backpack"    
+            class="d-block w-full">
+
+  <div class="px-2 py-2">
+    <p class="mb-0 small font-weight-medium text-uppercase mb-1 text-muted lts-2px">
+      TAG
+    </p>
+
+    <h1 class="ff-serif font-weight-normal text-black card-heading mt-0 mb-1" style="line-height: 1.25;">
+      HEADING TEXT
+    </h1>
+
+    <p class="mb-1">
+      DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT 
+    </p>
+
+  </div>
+
+  <a href="#0" class="text-uppercase d-inline-block font-weight-medium lts-2px ml-2 mb-2 text-center styled-link">
+    Read More
+  </a>
+
+       
+
+</div>
+
+<div class="w-full bg-white py-1 px-2 clearfix" style="border-top: 1px solid rgba(0,0,0,0.12);">
+        <span class="float-left">
+            Type
+            <a href="#" class="styled-link">News card</a> 
+        </span>
+        <span class="float-right">
+            Coded by <a href="https://devesh-pawar.tk" class="styled-link">DEV</a>
+        </span>
+    </div>
+    </div>
+
+
+    <div>
+     <div class="my-2 mx-auto p-relative bg-white shadow-1 blue-hover" style="width: 360px; overflow: hidden; border-radius: 1px;">
+        <img src="https://images.pexels.com/photos/442559/pexels-photo-442559.jpeg?auto=compress&cs=tinysrgb" alt="Man with backpack"    
+            class="d-block w-full">
+
+  <div class="px-2 py-2">
+    <p class="mb-0 small font-weight-medium text-uppercase mb-1 text-muted lts-2px">
+      TAG
+    </p>
+
+    <h1 class="ff-serif font-weight-normal text-black card-heading mt-0 mb-1" style="line-height: 1.25;">
+      HEADING TEXT
+    </h1>
+
+    <p class="mb-1">
+      DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT 
+    </p>
+
+  </div>
+
+  <a href="#0" class="text-uppercase d-inline-block font-weight-medium lts-2px ml-2 mb-2 text-center styled-link">
+    Read More
+  </a>
+
+       
+
+</div>
+
+<div class="w-full bg-white py-1 px-2 clearfix" style="border-top: 1px solid rgba(0,0,0,0.12);">
+        <span class="float-left">
+            Type
+            <a href="#" class="styled-link">News card</a> 
+        </span>
+        <span class="float-right">
+            Coded by <a href="https://devesh-pawar.tk" class="styled-link">DEV</a>
+        </span>
+    </div>
+    </div>
+
+
+    <div>
+      <div class="my-2 mx-auto p-relative bg-white shadow-1 blue-hover" style="width: 360px; overflow: hidden; border-radius: 1px;">
+        <img src="https://images.pexels.com/photos/442559/pexels-photo-442559.jpeg?auto=compress&cs=tinysrgb" alt="Man with backpack"    
+            class="d-block w-full">
+
+  <div class="px-2 py-2">
+    <p class="mb-0 small font-weight-medium text-uppercase mb-1 text-muted lts-2px">
+      TAG
+    </p>
+
+    <h1 class="ff-serif font-weight-normal text-black card-heading mt-0 mb-1" style="line-height: 1.25;">
+      HEADING TEXT
+    </h1>
+
+    <p class="mb-1">
+      DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT DUMMY TEXT 
+    </p>
+
+  </div>
+
+  <a href="#0" class="text-uppercase d-inline-block font-weight-medium lts-2px ml-2 mb-2 text-center styled-link">
+    Read More
+  </a>
+
+       
+
+</div>
+
+<div class="w-full bg-white py-1 px-2 clearfix" style="border-top: 1px solid rgba(0,0,0,0.12);">
+        <span class="float-left">
+            Type
+            <a href="#" class="styled-link">News card</a> 
+        </span>
+        <span class="float-right">
+            Coded by <a href="https://devesh-pawar.tk" class="styled-link">DEV</a>
+        </span>
+    </div>
+    </div>
+
+
+  </section>
+
+
+</div>
+
+</div>
+
+  
+  
+
+</section>
+
+</section>
+
+
+<section id="MID-navigation">
+
+  <div class="row" id="row_slide" >
+    <div class="col-sm-6">
+    <div id="card-body" class="mid_nav">
+      <div id="card_bod" >
     <div class="card rounded-0 border-0" style=" width: 926px;
     margin-left: -331px;background-color: rgba(215, 44, 44, 0)">
       <div class="card-body h-50 d-inline-block" >
@@ -491,19 +777,23 @@
   </div>
 
 </div>
+
+
+
 </div>
-</div>
-
-  
-  
-
-</section>
-
-
 </section>
 
 <br>
 <br>
+<section id="art" style="width: 10px;">
+  
+
+<div style="height:200px;width:400px;" id="art-cont">
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800.8 950.64"><defs><style>.cls-2{fill:#6bd5e1}.cls-10,.cls-13,.cls-14,.cls-15,.cls-2,.cls-3,.cls-4,.cls-7,.cls-8{fill-rule:evenodd}.cls-3{fill:#e49d75}.cls-4{fill:#56cad8}.cls-7{fill:#ffe4ad}.cls-8{fill:#dfdfdf}.cls-15,.cls-9{fill:none;stroke-linejoin:round}.cls-9{stroke:#fff;stroke-width:1.01px;stroke-linecap:square}.cls-10{fill:#fd8369}.cls-15{stroke:#6bd5e1;stroke-linecap:round}.cls-13{fill:#2b2b2b}.cls-15{stroke-width:4px}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path d="M753.19 196.2c75.1 115.45 51.12 288.51-1.56 429.75C699.17 767 618.24 876.13 512.2 923c-105.81 46.86-236.51 31.39-336.49-25.33C75.5 840.93 6 743 .4 649.71c-5.83-93 52.46-181.14 117.92-294.35S256.86 103.83 380.39 63.48C504.13 23.13 678.09 81 753.19 196.2z" fill="#f2f2f2"/><path class="cls-2" d="M348.25 199.43l-3-15.15a16.31 16.31 0 0 0-19.16-12.8l-60.33 12a16.31 16.31 0 0 0-12.8 19.16l44 220.87a16.29 16.29 0 0 0 19.16 12.8l39.76-7.92c5.27-1.35 12.2-3.39 12.2-3.39l-19.83-225.57"/><path class="cls-3" d="M510.76 900.36l4.85 15.22 40.49-9.3-3.43-18.21zM258.72 767.91L243.87 775l20.06 35.7 17.44-11.36z"/><path class="cls-4" d="M350.58 394.05s40.69 214.09 52.44 243c-15.59 12.66-145.1 131.13-145.1 131.13l22 32.26 187.5-107.35-38.55-320.85z"/><path class="cls-2" d="M376.93 402.13c9.56 23.87 133.72 498.56 133.72 498.56l43.45-11.46-38.2-522.43s-148.52 11.46-138.97 35.33z"/><path d="M399.06 157.56C495 136.65 529 342.92 522.5 368.62s-158.19 51-169.31 35.44-55.58-224.39 45.87-246.5z" fill="#ffd98e" fill-rule="evenodd"/><path d="M373.2 105.92c6.32 16.29 8.71 40.73 10.25 64.32 8.48 7.38 33.57 4.92 37.08.56-2.81-7.44-2.11-30.47-.56-37.63s-50.3-36.34-46.77-27.25z" fill="#d18c65" fill-rule="evenodd"/><path class="cls-7" d="M524.39 414.08z"/><path class="cls-8" d="M528.5 139.71l30.41-116.95 13.6 3.53-30.41 117z"/><path class="cls-9" d="M536.77 128.69l7.79 2M540.77 113.31l7.79 2M544.76 97.93l7.8 2M548.76 82.55l7.8 2M552.76 67.17l7.79 2M556.76 51.79l7.79 2M560.76 36.41l7.79 2"/><path class="cls-4" d="M573.93 95.36c8.12-2.86 13.64 4.65 15.86 11.33 3.56 10.74 1.2 20.54-2.22 22a9.23 9.23 0 0 1-11.1-2.85c-.24 2.93-.66 5.37-6 7.69-8 3.47-16.84-7-18.93-12.4-2.78-7.1-1.47-17.7 4.5-20.26 4.92-2.11 8.28-.59 9.83 1.35 2.19-3.45 4.65-5.66 8.06-6.86z"/><path class="cls-10" d="M568.76 73.76c11.75 1 2.92 19.59-2.62 23.55-3.92-3.31-8.75-24.52 2.62-23.55z"/><path class="cls-3" d="M356.77 293.18c-.84 17.67-5.55 65.05 29.91 73.25 33.73 7.81 144.6-67.35 164.51-71.83s20.24 2.6 34.69-2.82c28.49-10.7 23-22.44 20.75-34.49-12.06 3.92-183.55 46-189.34 47.52a44.66 44.66 0 0 1-3.93-17.43s-55.75-11.87-56.59 5.8z"/><path class="cls-7" d="M378.22 195.5c47.76-2.32 51.2 95.68 44.18 102.11s-73.4 11.12-78.4 3.81-7.91-103.87 34.22-105.92z"/><path class="cls-10" d="M480.38 252.93c-11.3 2.84-18.53 12.8-16.15 22.24S477.69 290 489 287.11l123.18-31-8.6-34.18z"/><path class="cls-8" d="M478.66 228.41l174.4-44.09 6 23.78-174.4 44.08z"/><path class="cls-4" d="M474.21 187.68l126.23-31.91 10.06 39.79-126.24 31.91z"/><path class="cls-10" d="M431.57 173.28L606 129.19l6 23.81-174.4 44.08z"/><path d="M483.18 256.41l6.25 25.2" stroke-width="1.36" stroke="#6bd5e1" stroke-linecap="square" fill="none" stroke-linejoin="round"/><path class="cls-8" d="M487.73 199.41l35.62-9 2.84 11.23-35.62 9z"/><path d="M444.1 182.58l71.9-18.41" stroke-linecap="round" stroke="#ffd98e" stroke-width="2.42" fill="none" stroke-linejoin="round"/><path class="cls-13" d="M211.46 791.31L268.6 897.1l16.11-8.5-17.95-78L244 774.68zM520.64 950.64l118.38-21-3-18-79.72-7.49-41.23 10.33z"/><path class="cls-14" d="M443.09 31.56C438.58 7 414.44-3.56 393.11 1.05c-37.09 8-55 28-77.15 31.73-33.6 5.62-64.89-7-100.16 2.3-47.8 12.6-54.91 46.73-48 77.35 11.51 50.65 55.08 62 87.75 57.22 47.6-7 48.41-40.56 78.26-45.69 13.95-2.39 23 .67 37.19-2s37.22-21.07 44-28.08 30.77-47.74 28.09-62.32z"/><path class="cls-3" d="M367.39 86.08c-5-29.64 8.85-55.93 30.94-58.72S442.4 46.34 447.4 76s-8.85 55.93-30.94 58.72-44.07-19-49.07-48.64z"/><path class="cls-14" d="M434 39c3.65 19.44-52.94 50.75-70.74 54.68S338.68 60.9 338.68 60.9 398.89-9.63 434 39z"/><path class="cls-3" d="M361.49 101.58a10.63 10.63 0 1 1 10.62 10.62 10.62 10.62 0 0 1-10.62-10.62z"/><path class="cls-15" d="M342 190.3a42.06 42.06 0 0 1 17.72-8.72M359.76 181.58c31.34-6.88 64.87 24.5 74.88 70.1 4 18.07 3.65 35.66-.13 50.74"/></g></g></svg>
+  
+</div>
+</section>
 <br>
 <br>
 <br>
@@ -515,19 +805,59 @@
 
 
 
-
-
-
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 <script>
- 
-  new universalParallax().init({
-  speed: 6.0
-});
+  AOS.init();
 </script>
 
-<section id="footer">
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+
+
+
+
+<section id="footer" style="width: 100%">
 <!-- Footer -->
 <footer class="page-footer font-small blue pt-4" style="    background:white;">
 
@@ -610,7 +940,7 @@
           <a class="pin-ic">
             <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
           </a>
-</ssection>
+</section>
   </p>
 
 
@@ -620,6 +950,35 @@
 <!-- Footer -->
 
 </section>
+
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="slick/slick.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript">
+    $(document).on('ready', function() {
+      $(".variable").slick({
+        dots: true,
+        infinite: true,
+        variableWidth: true,
+        centerMode:true,
+        autoplay:true
+      });
+    });
+</script>
+
+
+
+
+<script>
+  var rellax = new Rellax('.rellax');
+  relativeToWrapper
+</script>
+
+<script>
+  
+</script>
+
+
+
 </body>
 
 </html>
