@@ -218,6 +218,10 @@ position: absolute;
     left: -2px;
 }
 
+#news_part  .d-block{
+    width: 100% !important;
+}
+
 }
 
 /*--------------------------------------*/
@@ -355,7 +359,7 @@ position: absolute;
     background: #355a9b;
     z-index: -1;
     position: absolute;
-        top: -164px;
+        top: -130px;
     left: 47%;
 }
 
@@ -376,7 +380,7 @@ position: absolute;
     background: #16418b;
     z-index: -1;
     position: absolute;
-        top: -185px;
+        top: -137px;
     left: 67%;
 
 }
@@ -390,6 +394,10 @@ position: absolute;
     position: absolute;
         top: 267px;
     left: -2px; 
+}
+
+#news_part .d-block{
+    width: 75% !important;
 }
 
 
@@ -535,17 +543,6 @@ position: absolute;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 .card-container {
   flex: 200px 200px 200px;
   margin: 10px;
@@ -600,7 +597,7 @@ position: absolute;
 }
 .card-container .card .card--border {
   position: absolute;
-  width: 115%;
+  width:111%;
   height: 200px;
   left: 0;
   top: 0;
@@ -678,3 +675,9 @@ position: absolute;
     .slick-current {
       opacity: 1;
     }
+
+
+
+.item img {
+  width:100%
+}
